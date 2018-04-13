@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-
+// Test comment
     public void helloWorld(View view) {
         Toast toast = Toast.makeText(MainActivity.this, "hey there", Toast.LENGTH_SHORT);
         toast.setGravity(Gravity.CENTER, 0 ,0);
